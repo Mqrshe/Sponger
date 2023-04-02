@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.mqrshe.sponger.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TitleScreenMixin",
+    "hudMixin"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
