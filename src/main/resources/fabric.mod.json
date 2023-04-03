@@ -22,6 +22,9 @@
       "me.mqrshe.sponger.Sponger"
     ]
   },
+  "mixins": [
+    "modid.mixins.json"
+  ],
 
   "depends": {
     "fabricloader": ">=0.14.17",
