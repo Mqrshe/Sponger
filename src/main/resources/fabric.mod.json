@@ -31,5 +31,10 @@
   },
   "suggests": {
     "another-mod": "*"
-  }
+  },
+
+  "client": [
+    "com.random.aot.keybinds.keyRegister"
+  ]
+
 }

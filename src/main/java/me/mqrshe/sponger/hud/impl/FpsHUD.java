@@ -13,7 +13,7 @@ public class FpsHUD extends HUDElement {
     @Override
     public void render() {
         String fps = String.valueOf(mc.getCurrentFps());
-        MinecraftClient.getInstance().textRenderer.drawWithShadow(MATRICES, fps, 200 , 200, -1);
+        MinecraftClient.getInstance().textRenderer.drawWithShadow(MATRICES, "Fps: " + fps, 1 , 1, -1);
 
     }
 }

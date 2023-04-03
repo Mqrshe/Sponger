@@ -19,8 +19,8 @@ public class ArmourHUD extends HUDElement {
     @Override
     public void render() {
 
-        double x = 100;
-        double y = 100;
+        double x = 260;
+        double y = 220;
         double armorX;
         double armorY;
 
@@ -29,7 +29,7 @@ public class ArmourHUD extends HUDElement {
         matrices.push();
 //        matrices.scale(scale.get().floatValue(), scale.get().floatValue(), 1);
 
-        int slot = 0;
+        int slot = 3; // start from the last slot
         for (int position = 0; position < 4; position++) {
             ItemStack itemStack = mc.player.getInventory().getArmorStack(slot);
 
@@ -41,11 +41,12 @@ public class ArmourHUD extends HUDElement {
             drawItem(itemStack, (int) armorX, (int) armorY, 1,  (true));
 
 
-            slot++;
+            slot--; // decrement the slot index to iterate in reverse order
         }
 
         matrices.pop();
     }
+
 
     public static void drawItem(ItemStack itemStack, int x, int y, float scale, boolean overlay) {
         MATRICES.push();
