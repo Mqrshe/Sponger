@@ -22,6 +22,7 @@
     "main": [
       "me.mqrshe.sponger.Sponger"
     ]
+
   },
 
   "depends": {

@@ -1,12 +1,9 @@
 package me.mqrshe.sponger;
 
 import me.mqrshe.sponger.handlers.RenderEventHandler;
-import me.mqrshe.sponger.hud.HUDElement;
 import me.mqrshe.sponger.managers.HUDManager;
 import net.fabricmc.api.ModInitializer;
-
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
-import net.minecraft.client.MinecraftClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +17,6 @@ public class Sponger implements ModInitializer {
 		LOGGER.info("Sponger Loaded");
 		hudManager = new HUDManager();
 		HudRenderCallback.EVENT.register(new RenderEventHandler());
+		FlawlessFrames.onClientInitialization();
 	}
 }
