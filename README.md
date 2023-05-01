@@ -20,7 +20,8 @@ Sponger requires Modmenu only
 * Armor Hud
 * Coordinates Hud
 * FPS Hud
-* Game options saver
+* Game options saver (YOSBR)
 * Boat break fix for Singleplayer
 * Minor Chunk/Lighting Fixes
 * Feature where chat history isnt cleared
+* Fps improving feature to make Frames more stable and less Fps drops
