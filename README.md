@@ -10,17 +10,17 @@ The mod is called Sponger because Mqrshie liked the name and also because it "sp
 Sponger requires Modmenu only
 
 # To Do:
-• Add a Modmenu menu for the client with options to toggle Armor Hud, Coord Hud and Fps Hud on and off
-• Cake Chomps
-• Brightness toggle
-• Add a keybind for opening menu
-• Add a issues link
+* Add a Modmenu menu for the client with options to toggle Armor Hud, Coord Hud and Fps Hud on and off
+* Cake Chomps
+* Brightness toggle
+* Add a keybind for opening menu
+* Add a issues link
 
 # Features:
-• Armor Hud
-• Coordinates Hud
-• FPS Hud
-• Game options saver
-• Boat break fix for single player
-• Minor Chunk/Lighting Fixes
-• Feature where chat history isnt cleared
+* Armor Hud
+* Coordinates Hud
+* FPS Hud
+* Game options saver
+* Boat break fix for Singleplayer
+* Minor Chunk/Lighting Fixes
+* Feature where chat history isnt cleared
