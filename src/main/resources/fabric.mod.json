@@ -21,8 +21,10 @@
   "entrypoints": {
     "main": [
       "me.mqrshe.sponger.Sponger"
-    ]
+    ],
+    "modmenu": [
 
+    ]
   },
 
   "depends": {
@@ -33,10 +35,6 @@
   },
   "suggests": {
     "another-mod": "*"
-  },
-
-  "client": [
-    "com.random.aot.keybinds.keyRegister"
-  ]
+  }
 
 }
