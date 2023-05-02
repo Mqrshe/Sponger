@@ -19,6 +19,7 @@ Sponger requires Modmenu only
 * Armor Hud
 * Coordinates Hud
 * FPS Hud
+* Smaller Totem of undying animations
 * Game options saver (YOSBR)
 * Boat break fix for Singleplayer
 * Minor Chunk/Lighting Fixes
