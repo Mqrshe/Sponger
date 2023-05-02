@@ -11,7 +11,6 @@ Sponger requires Modmenu only
 
 # To Do:
 * Add a Modmenu menu for the client with options to toggle Armor Hud, Coord Hud and Fps Hud on and off
-* Cake Chomps
 * Brightness toggle
 * Add a keybind for opening menu
 * Add a issues link
@@ -25,3 +24,9 @@ Sponger requires Modmenu only
 * Minor Chunk/Lighting Fixes
 * Feature where chat history isnt cleared
 * Fps improving feature to make Frames more stable and less Fps drops
+
+# Feature Wishlist:
+* Motion blur or menu blur
+* Rocket charge icon for firework rockets to show when the effect of the firework rocket isnt active anymore while flying
+* More vanilla tweaks (Boat Item View, Sound Fixes, Texture Fixes and Vanilla Client Bug Fixes)
+* Font Menu that can change the games global font
