@@ -7,7 +7,7 @@ Sponger is a fabric 1.19.4 mod for Minecraft Java. Sponger is as light weight as
 The mod is called Sponger because Mqrshie liked the name and also because it "sponges" things up
 
 ### What dependencies does this mod require?
-Sponger requires Modmenu only
+None but Modmenu is optional.
 
 # To Do:
 * Add a Modmenu menu for the client with options to toggle Armor Hud, Coord Hud and Fps Hud on and off
@@ -20,7 +20,6 @@ Sponger requires Modmenu only
 * Coordinates Hud
 * FPS Hud
 * Smaller Totem of undying animations
-* Game options saver (YOSBR)
 * Boat break fix for Singleplayer
 * Minor Chunk/Lighting Fixes
 * Feature where chat history isnt cleared
