@@ -12,7 +12,7 @@ public class Sponger implements ModInitializer {
 
 	public static HUDManager hudManager;
 	public static Sponger IMPL = new Sponger();
-	public static final Logger LOGGER = LoggerFactory.getLogger("sponger");
+	public static final Logger LOGGER = LoggerFactory.getLogger("Sponger");
 
 
 	@Override
@@ -21,6 +21,8 @@ public class Sponger implements ModInitializer {
 		hudManager = new HUDManager();
 		HudRenderCallback.EVENT.register(new RenderEventHandler());
 		FlawlessFrames.onClientInitialization();
+
 	}
+
 
 }
