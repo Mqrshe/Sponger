@@ -24,6 +24,7 @@ None but Modmenu is optional.
 * Minor Chunk/Lighting Fixes
 * Feature where chat history isnt cleared
 * Fps improving feature to make Frames more stable and less Fps drops
+* Texture pack loaded with mod to fix some textures and lower fire.
 
 # Feature Wishlist:
 * Motion blur or menu blur
