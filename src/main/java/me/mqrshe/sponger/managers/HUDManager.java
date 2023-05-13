@@ -3,6 +3,7 @@ package me.mqrshe.sponger.managers;
 import me.mqrshe.sponger.hud.HUDElement;
 import me.mqrshe.sponger.hud.impl.ArmourHUD;
 import me.mqrshe.sponger.hud.impl.CoordHUD;
+import me.mqrshe.sponger.hud.impl.DayHUD;
 import me.mqrshe.sponger.hud.impl.FpsHUD;
 import net.minecraft.client.MinecraftClient;
 
@@ -17,6 +18,7 @@ public class HUDManager {
         addElement(new ArmourHUD());
         addElement(new FpsHUD());
         addElement(new CoordHUD());
+        addElement(new DayHUD());
 
     }
 
